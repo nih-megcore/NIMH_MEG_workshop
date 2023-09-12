@@ -12,7 +12,7 @@
 | 1:00 - 2:00 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
 |  |  bad epochs, filtering, abberant signals |  
 | 2:00 - 2:30 | Code  ( channel preprocessing ) |
-| 2:30 - 3:30 | Filtering Data, Frequency Analysis, Brain Rythms, and Artifacts | Allison | 
+| 2:30 - 3:30 | Filtering Data, Frequency Analysis, Hilbert, Brain Rythms, and Artifacts | Allison | 
 | 3:30 - 4:00 | Code 
 | 4:00 - 5:00 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
 | | BEM, Forward Model | 
