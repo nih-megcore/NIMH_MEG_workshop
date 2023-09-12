@@ -1,6 +1,6 @@
 # MEG_workshop_2023
 
-Day 1 
+## Day 1 
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
 | 9:00 - 9:15 | Bagels + Computer Setup |
@@ -16,3 +16,17 @@ Day 1
 | 3:30 - 4:00 | Code 
 | 4:00 - 5:00 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
 | | BEM, Forward Model | 
+
+## Day 2
+| Time  | Topic | Presenter |
+| :---- | ---- | ---- |
+| 9:30-10:30 | Inverse Solutions (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Fred + Jeff | 
+| 10:30 - 11:30 | Code | 
+| 11:30 - 12:00 | Beamformer Specifics - Covariance, filtering, data rank, regularization | Allison |
+| 12:00 - 1:00| Lunch |
+| 1:00 - 2:00 | Single subject to group data | Jeff |
+| 2:00 - 2:30 | Code |
+| 2:30 - 3:30 | Statistics (parametrics / log transform / resampling stats / clusters ) | Fred + Allison |
+| 3:30 - 4:00 | Code | 
+| 4:00 - 5:00 | Review | Allison |
+
