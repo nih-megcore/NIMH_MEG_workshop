@@ -3,7 +3,7 @@
 ## Day 1 (09/27/2023)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
-| 9:00 - 9:15 | Bagels + Computer Setup |
+| 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup |
 | 9:15 - 9:30 | Course Intro + MEGcore Intro | MEGcore |
 | 9:30 - 10:30 | Intro to MEG and general overview of source localization | Fred |
 | 10:30 - 11:00 | MEG Hardware and Signal Generation / Collection | Stephen | 
