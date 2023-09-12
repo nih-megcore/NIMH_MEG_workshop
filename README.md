@@ -1,6 +1,6 @@
 # MEG_workshop_2023
 
-## Day 1 
+## Day 1 (09/27/2023)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
 | 9:00 - 9:15 | Bagels + Computer Setup |
@@ -17,7 +17,7 @@
 | 4:00 - 5:00 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
 | | BEM, Forward Model | 
 
-## Day 2
+## Day 2 (10/04/2023)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
 | 9:30-10:30 | Inverse Solutions (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Fred + Jeff | 
