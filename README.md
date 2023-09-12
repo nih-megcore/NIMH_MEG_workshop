@@ -26,7 +26,7 @@
 | 12:00 - 1:00| Lunch |
 | 1:00 - 2:00 | Single subject to group data | Jeff |
 | 2:00 - 2:30 | Code |
-| 2:30 - 3:30 | Statistics (parametrics / log transform / resampling stats / clusters ) | Fred + Allison |
+| 2:30 - 3:30 | Statistics (parametric / log transform / resampling stats / clusters ) | Fred + Allison |
 | 3:30 - 4:00 | Code | 
 | 4:00 - 5:00 | Review | Allison |
 
