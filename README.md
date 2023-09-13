@@ -30,3 +30,19 @@
 | 3:30 - 4:00 | Code | 
 | 4:00 - 5:00 | Review | Allison |
 
+# Install (not required for biowulf users)
+Mamba is not required, but will install faster than conda (functionally they are the same) <br>
+To install mamba - `conda install --channel=conda-forge --name=base mamba`
+<br><br>
+Course install
+```
+#Clone this repository
+git clone https://github.com/nih-megcore/MEG_workshop_2023.git
+#Install MNE
+mamba create --override-channels --channel=conda-forge --name=MEG_workshop mne pip
+conda activate MEG_workshop
+cd MEG_workshop_2023
+#Install the Workshop files
+pip install -e .  
+pip install git+https://github.com/nih-megcore/nih_to_mne.git
+```
