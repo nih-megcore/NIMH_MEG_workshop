@@ -59,7 +59,14 @@ cd MEG_workshop_2023
 Mamba is not required, but will install faster than conda (functionally they are the same) <br>
 To install mamba - `conda install --channel=conda-forge --name=base mamba`
 <br><br>
-Course install
+### Install (version1) - requires make, mamba, git
+```
+git clone https://github.com/nih-megcore/MEG_workshop_2023.git
+cd MEG_workshop_2023
+make install 
+```
+
+### Install (version2) 
 ```
 #Clone this repository
 git clone https://github.com/nih-megcore/MEG_workshop_2023.git
