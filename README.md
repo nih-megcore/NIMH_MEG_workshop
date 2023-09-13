@@ -30,6 +30,21 @@
 | 3:30 - 4:00 | Code | 
 | 4:00 - 5:00 | Review | Allison |
 
+# Biowulf users (must be NIH associated)
+Log into biowulf
+```
+sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10 --tunnel
+module use --append /data/MEGmodules/modulefiles
+module load meg_workshop
+```
+Copy notebooks to your local folder.  Change directories first if you don't want the code/data in your home folder.
+```
+#Make sure to load the module beforehand
+get_workshop_code
+get_workshop_data
+```
+
+
 # Install (not required for biowulf users)
 Mamba is not required, but will install faster than conda (functionally they are the same) <br>
 To install mamba - `conda install --channel=conda-forge --name=base mamba`
