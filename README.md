@@ -38,11 +38,14 @@ Course install
 ```
 #Clone this repository
 git clone https://github.com/nih-megcore/MEG_workshop_2023.git
+
 #Install MNE
-mamba create --override-channels --channel=conda-forge --name=MEG_workshop mne pip
+mamba create --override-channels --channel=conda-forge --name=MEG_workshop mne pip jupyterlab -y
 conda activate MEG_workshop
-cd MEG_workshop_2023
+pip install h5io pymatreader
+
 #Install the Workshop files
-pip install -e .  
-pip install git+https://github.com/nih-megcore/nih_to_mne.git
+cd MEG_workshop_2023
+pip install -e .    #Install this code
+pip install git+https://github.com/nih-megcore/nih_to_mne.git  #Install some auxilliary NIH code
 ```
