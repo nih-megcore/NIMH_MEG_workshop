@@ -37,6 +37,11 @@ sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10 --tunnel
 module use --append /data/MEGmodules/modulefiles
 module load meg_workshop
 ```
+Copy the line from the terminal above that looks something like the below and paste into a new terminal
+```
+ssh  -L PORTNUMBER:localhost:PORTNUMBER USERNAME@biowulf.nih.gov   
+```
+
 Copy notebooks to your local folder.  Change directories first if you don't want the code/data in your home folder.
 ```
 #Make sure to load the module beforehand
@@ -47,10 +52,6 @@ Startup Notebook on Biowulf
 ```
 cd MEG_workshop_2023
 ./notebook_start.sh
-```
-In a new terminal log into biowulf and forward the port to the local web browser
-```
-ssh  -L PORTNUMBER:localhost:8080 USERNAME@biowulf.nih.gov   #The port number comes from the biowulf login above
 ```
 
 
