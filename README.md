@@ -81,4 +81,11 @@ cd MEG_workshop_2023
 pip install -e .    #Install this code
 pip install git+https://github.com/nih-megcore/nih_to_mne.git  #Install some auxilliary NIH code
 ```
+
+## Install auxiliary code
+Install freesurfer: https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads
+Install Afni: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/main_toc.html
+
+
+## Check installs
 Run `./check_installation.sh` to check for freesurfer / afni / mne / jupyter installation.
