@@ -19,6 +19,6 @@ setuptools.setup(
         "Operating System :: Linux/Unix",
     ],
     python_requires='>3.8',
-    install_requires=['mne', 'numpy', 'scipy', 'pandas', 'nibabel', 'nilearn', 'seaborn', 'mne_bids',],
+    install_requires=['mne', 'numpy', 'scipy', 'pandas', 'nibabel', 'nilearn', 'seaborn', 'mne_bids','nbdime'],
     scripts=[ ],
     )
