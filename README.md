@@ -83,8 +83,8 @@ pip install git+https://github.com/nih-megcore/nih_to_mne.git  #Install some aux
 ```
 
 ## Install auxiliary code
-Install freesurfer: https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads
-Install Afni: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/main_toc.html
+Install freesurfer: https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads <br>
+Install Afni: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/main_toc.html <br>
 
 
 ## Check installs
