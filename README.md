@@ -40,8 +40,17 @@ module load meg_workshop
 Copy notebooks to your local folder.  Change directories first if you don't want the code/data in your home folder.
 ```
 #Make sure to load the module beforehand
-get_workshop_code
-get_workshop_data
+get_code
+get_data
+```
+Startup Notebook on Biowulf
+```
+cd MEG_workshop_2023
+./notebook_start.sh
+```
+In a new terminal log into biowulf and forward the port to the local web browser
+```
+ssh  -L PORTNUMBER:localhost:8080 USERNAME@biowulf.nih.gov   #The port number comes from the biowulf login above
 ```
 
 
