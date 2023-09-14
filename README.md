@@ -33,7 +33,8 @@
 # Biowulf users (must be NIH associated)
 Log into biowulf:  `ssh USERNAME@biowulf.nih.gov`
 ```
-sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10 --tunnel
+#Allocate resources for processing
+sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10 --tunnel --time=08:00:00
 ```
 You will see a line like the below. Follow the instructions (start a new terminal into biowulf), then return to original terminal for the rest of the commands.
 ![Tunnel](extras/images/tunnel_prompt.png)
