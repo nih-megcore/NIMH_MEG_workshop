@@ -58,6 +58,9 @@ Enter this into the address bar of your web browser `localhost:<PORT>` <br>
 
 
 # Install (not required for biowulf users)
+The following software is required to run all parts of the coding sections: afni + freesurfer + git + miniconda(/conda) <br>
+To run the majority of the code: miniconda/conda + git are required <br><br>
+
 Mamba is not required, but will install faster than conda (functionally they are the same) <br>
 To install mamba - `conda install --channel=conda-forge --name=base mamba`
 <br><br>
