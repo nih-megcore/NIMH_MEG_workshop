@@ -31,7 +31,7 @@
 | 4:00 - 5:00 | Review | Allison |
 
 # Biowulf users (must be NIH associated)
-Log into biowulf
+Log into biowulf:  `ssh USERNAME@biowulf.nih.gov`
 ```
 sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10 --tunnel
 ```
