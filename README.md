@@ -34,16 +34,16 @@
 Log into biowulf
 ```
 sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10 --tunnel
-module use --append /data/MEGmodules/modulefiles
-module load meg_workshop
 ```
 You will see a line like the below. Follow the instructions (start a new terminal into biowulf), then return to original terminal for the rest of the commands.
 ![Tunnel](extras/images/tunnel_prompt.png)
 
 Copy notebooks to your local folder.  Change directories first if you don't want the code/data in your home folder.
 ```
-#Make sure to load the module beforehand
-get_code
+module use --append /data/MEGmodules/modulefiles  #You can add this to your .bashrc for convenience
+module load meg_workshop
+# Copy the code and the data to your local folder
+get_code 
 get_data
 ```
 Startup Notebook on Biowulf
@@ -51,6 +51,9 @@ Startup Notebook on Biowulf
 cd MEG_workshop_2023
 ./notebook_start.sh
 ```
+Enter this into the address bar of your web browser `localhost:<PORT>` <br>
+![JupyterLogin](extras/images/Jupyter_login.png)
+
 
 
 # Install (not required for biowulf users)
