@@ -20,7 +20,7 @@
 ## Day 2 (10/04/2023)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
-| 9:30-10:30 | Inverse Solutions (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Fred + Jeff | 
+| 9:30-10:30 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Fred + Jeff | 
 | 10:30 - 11:30 | Code | 
 | 11:30 - 12:00 | Beamformer Specifics - Covariance, filtering, data rank, regularization | Allison |
 | 12:00 - 1:00| Lunch |
