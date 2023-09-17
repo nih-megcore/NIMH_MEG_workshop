@@ -87,6 +87,17 @@ pip install -e .    #Install this code
 pip install git+https://github.com/nih-megcore/nih_to_mne.git  #Install some auxilliary NIH code
 ```
 
+## Install dataset
+```
+mamba create -n datalad -c conda-forge datalad gdown -y
+conda activate datalad
+```
+This will pull the NIMH_hv OpenNeuro repository and associated files. <br>
+This will download the freesurfer processed MRI files as well
+```
+ ./extras/datalad_pull.sh
+```
+
 ## Install auxiliary code
 Install freesurfer: https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads <br>
 Install Afni: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/main_toc.html <br>
