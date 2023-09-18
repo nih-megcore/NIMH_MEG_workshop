@@ -28,7 +28,8 @@
 | 2:00 - 2:30 | Code |
 | 2:30 - 3:30 | Statistics (parametric / log transform / resampling stats / clusters ) | Fred + Allison |
 | 3:30 - 4:00 | Code | 
-| 4:00 - 5:00 | Course Review and Overview of Additional Techniques| Allison + Amaia |
+| 4:00 - 5:00 | Course Review and | Allison + |
+| | Overview of Additional Techniques|  Amaia + Shruti |
 
 # Biowulf users (must be NIH associated)
 Log into biowulf:  `ssh USERNAME@biowulf.nih.gov`
