@@ -1,0 +1,2 @@
+cp -R  /vf/users/MEGmodules/modules/meg_workshop_2023_extras/ds004215 /data/${USER}/meg_workshop_data
+echo Copied the MEG_workshop_2023 DATA to /data/${USER}
