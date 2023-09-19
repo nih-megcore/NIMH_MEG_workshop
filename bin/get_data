@@ -1,2 +1,6 @@
-cp -R  /vf/users/MEGmodules/modules/meg_workshop_2023_extras/ds004215 /data/${USER}/meg_workshop_data
+cp -R  /vf/users/MEGmodules/modules/meg_workshop_2023_extras/ds004215.tar.gz /data/${USER}/meg_workshop_data.tar.gz
+cd /data/${USER}
+tar -xvf meg_workshop_data.tar.gz
+echo ##################################################
 echo Copied the MEG_workshop_2023 DATA to /data/${USER}
+echo ##################################################
