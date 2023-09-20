@@ -33,7 +33,7 @@
 | | Additional Techniques: Decoding, Dynamic Causal Modeling | Shruti + Jess |
 
 # Biowulf users (must be NIH associated)
-Log into biowulf:  `ssh USERNAME@biowulf.nih.gov`
+Log into biowulf:  `ssh -Y USERNAME@biowulf.nih.gov`
 ```
 #Allocate resources for processing
 sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10 --tunnel --time=08:00:00
