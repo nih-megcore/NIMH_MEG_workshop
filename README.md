@@ -45,9 +45,9 @@ Copy notebooks to your local folder.  Change directories first if you don't want
 ```
 module use --append /data/MEGmodules/modulefiles  #You can add this to your .bashrc for convenience
 module load meg_workshop
-# Copy the code and the data to your local folder
-get_code 
-get_data
+
+get_code   #Copy the code to your current directory
+get_data   #Copy and untar the data to your /data/${USER}/meg_data_workshop
 ```
 Startup Notebook on Biowulf
 ```
