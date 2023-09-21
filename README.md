@@ -1,4 +1,4 @@
-# MEG_workshop_2023
+# MEG_workshop_2023  << UNDER CONSTRUCTION >>
 
 ## Day 1 (09/27/2023)
 | Time  | Topic | Presenter |
@@ -7,15 +7,15 @@
 | 9:15 - 9:30 | Course Intro + MEGcore Intro | MEGcore |
 | 9:30 - 10:30 | Intro to MEG and general overview of source localization | Fred |
 | 10:30 - 11:00 | MEG Hardware and Signal Generation / Collection | Stephen | 
-| 11:30 - 12:00 | Code + Coffee (Load, plot, display channel data) |
-| 12:00 - 1:00 | Lunch | 
-| 1:00 - 2:00 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
-|  |  bad epochs, filtering, abberant signals |  
-| 2:00 - 2:30 | Code  ( channel preprocessing ) |
-| 2:30 - 3:30 | Filtering Data, Frequency Analysis, Hilbert, Brain Rythms, and Artifacts | Allison | 
-| 3:30 - 4:00 | Code 
-| 4:00 - 5:00 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
+| 11:00 - 12:00 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
+|  |  bad epochs, filtering, abberant signals | 
+| 12:00 - 12:30 | Code  ( channel preprocessing ) |
+| 12:30 - 1:30 | Lunch | 
+| 1:30 - 2:30 | Filtering Data, Frequency Analysis, Hilbert, Brain Rythms, and Artifacts | Allison | 
+| 2:30 - 3:00 | Code |
+| 3:00 - 4:00 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
 | | BEM, Forward Model | 
+| 4:00 - 4:30 | Code (MRI Processing / Prep) |
 
 ## Day 2 (10/04/2023)
 | Time  | Topic | Presenter |
@@ -28,7 +28,7 @@
 | 2:00 - 2:30 | Code |
 | 2:30 - 3:30 | Statistics (parametric / log transform / resampling stats / clusters ) | Fred + Allison |
 | 3:30 - 4:00 | Code | 
-| 4:00 - 4:20 | Course Review | Allison + |
+| 4:00 - 4:20 | Course Review | Allison |
 | 4:20 - 5:00 | Additional Techniques: OPMs,  Connectivity | Amaia + Lucrezia |
 | | Additional Techniques: Decoding, Dynamic Causal Modeling | Shruti + Jess |
 
