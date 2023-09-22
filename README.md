@@ -104,7 +104,7 @@ Install Afni: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/
 
 
 ## Check installs
-Run `./check_installation.sh` to check for freesurfer / afni / mne / jupyter installation.
+Run `./check_requirements.sh` to check for freesurfer / afni / mne / jupyter installation.
 
 # Data Format for code
 Input data is in BIDS format from the NIH HV protocol. <br>
