@@ -105,3 +105,10 @@ Install Afni: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/
 
 ## Check installs
 Run `./check_installation.sh` to check for freesurfer / afni / mne / jupyter installation.
+
+# Data Format for code
+Input data is in BIDS format from the NIH HV protocol. <br>
+Data should be located in `/data/${USER}/meg_workshop_data` <br>
+&nbsp;&nbsp; This will automatically be performed on biowulf with the `get_data` command. <br>
+Derivatives data will be in `/data/${USER}/meg_workshop_data/{Day1,Day2}/${bids_id}/ses-01/meg/` <br>
+&nbsp;&nbsp; Day2 derivatives will have pre-calculated bem, fwd, trans, src files <br>
