@@ -7,10 +7,10 @@
 | 9:15 - 9:30 | Course Intro + MEGcore Intro | MEGcore |
 | 9:30 - 10:30 | Intro to MEG and general overview of source localization | Fred |
 | 10:30 - 11:00 | MEG Hardware and Signal Generation / Collection | Stephen | 
-| 11:00 - 12:00 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
+| 11:00 - 11:15 | Break
+| 11:15 - 12:15 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
 |  |  bad epochs, filtering, abberant signals | 
-| 12:00 - 12:30 | Code  ( channel preprocessing ) |
-| 12:30 - 1:30 | Lunch | 
+| 12:15 - 1:30 | Code (Lab1) + Lunch | 
 | 1:30 - 2:30 | Filtering Data, Frequency Analysis, Hilbert, Brain Rythms, and Artifacts | Allison | 
 | 2:30 - 3:00 | Code |
 | 3:00 - 4:00 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
