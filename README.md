@@ -52,10 +52,11 @@ get_data   #Copy and untar the data to your /data/${USER}/meg_data_workshop
 cd MEG_workshop_2023 
 ./start_notebook.sh  #Start the notebook server on biowulf
 ```
+
 Enter this into the address bar of your web browser `localhost:<PORT>` <br>
 ![JupyterLogin](extras/images/Jupyter_login.png)
 
-
+**NOTE**:If you get something about a **token**: Copy it from the commandline<br><br>
 
 # Install (not required for biowulf users)
 The following software is required to run all parts of the coding sections: afni + freesurfer + git + miniconda(/conda) <br>
