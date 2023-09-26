@@ -50,7 +50,7 @@ get_code   #Copy the code to your current directory
 get_data   #Copy and untar the data to your /data/${USER}/meg_data_workshop
 
 cd MEG_workshop_2023 
-./notebook_start.sh  #Start the notebook server on biowulf
+./start_notebook.sh  #Start the notebook server on biowulf
 ```
 Enter this into the address bar of your web browser `localhost:<PORT>` <br>
 ![JupyterLogin](extras/images/Jupyter_login.png)
