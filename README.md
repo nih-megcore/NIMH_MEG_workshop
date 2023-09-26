@@ -1,4 +1,4 @@
-# MEG_workshop_2023  << UNDER CONSTRUCTION >>
+# MEG_workshop_2023  
 
 ## Day 1 (09/27/2023)
 | Time  | Topic | Presenter |
