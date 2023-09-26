@@ -10,12 +10,12 @@
 | 11:00 - 11:15 | Break
 | 11:15 - 12:15 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
 |  |  bad epochs, filtering, abberant signals | 
-| 12:15 - 1:30 | Code (Lab1) + Lunch | 
+| 12:15 - 1:30 | [Lab 1](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab1_preprocessing.ipynb) + Lunch | 
 | 1:30 - 2:30 | Filtering Data, Frequency Analysis, Hilbert, Brain Rythms, and Artifacts | Allison | 
-| 2:30 - 3:00 | Code |
+| 2:30 - 3:00 | [Lab 2](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab2_frequency_analysis.ipynb) |
 | 3:00 - 4:00 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
 | | BEM, Forward Model | 
-| 4:00 - 4:30 | Code (MRI Processing / Prep) |
+| 4:00 - 4:30 | [Lab 3](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab3_MRI_processing.ipynb) |
 
 ## Day 2 (10/04/2023)
 | Time  | Topic | Presenter |
