@@ -35,6 +35,7 @@
 # Biowulf users (must be NIH associated)
 Log into biowulf:  `ssh -Y USERNAME@biowulf.nih.gov`
 ```
+#You can type tmux before starting sinteractive to have a persistent session between disconnecting wifi
 #Allocate resources for processing
 sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10 --tunnel --time=08:00:00
 ```
