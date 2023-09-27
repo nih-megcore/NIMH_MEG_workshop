@@ -1,2 +1,4 @@
 cp -R /data/MEGmodules/modules/meg_workshop_2023_extras/MEG_workshop_2023 ./
 echo Copied the MEG_workshop_2023 folder to $(pwd)
+echo ''
+echo "NOTE:If you get a permission error - delete your current MEG_workshop_2023 folder and try again"
