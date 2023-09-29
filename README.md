@@ -63,6 +63,14 @@ Enter this into the address bar of your web browser `localhost:<PORT>` <br>
 The following software is required to run all parts of the coding sections: afni + freesurfer + git + miniconda(/conda) <br>
 To run the majority of the code: miniconda/conda + git are required <br><br>
 
+Miniconda will provide the minimum features for the installation:<br>
+https://docs.conda.io/projects/miniconda/en/latest/    <br>
+In a terminal, find your Download folder (typically `cd /home/<USERNAME>/Downloads`  or `cd /Users/<USERNAME>/Downloads`).  <br>
+```
+chmod +x Miniconda3-latest.....sh
+./Miniconda3-latest...sh
+```
+
 Mamba is not required, but will install faster than conda (functionally they are the same) <br>
 To install mamba - `conda install --channel=conda-forge --name=base mamba`
 <br><br>
