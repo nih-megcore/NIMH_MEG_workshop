@@ -67,8 +67,8 @@ Miniconda will provide the minimum features for the installation:<br>
 https://docs.conda.io/projects/miniconda/en/latest/    <br>
 In a terminal, find your Download folder (typically `cd /home/<USERNAME>/Downloads`  or `cd /Users/<USERNAME>/Downloads`).  <br>
 ```
-chmod +x Miniconda3-latest.....sh
-./Miniconda3-latest...sh
+chmod +x Miniconda3-latest.....sh   #Make this file executable - Fill in the rest of name (it will be Linux / Mac/ or Windows)
+./Miniconda3-latest...sh  #Run the installer.  Open a new terminal after finishing the installation directions
 ```
 
 Mamba is not required, but will install faster than conda (functionally they are the same) <br>
@@ -108,7 +108,7 @@ This will download the freesurfer processed MRI files as well
  ./extras/datalad_pull.sh
 ```
 
-## Install auxiliary code
+## Install auxiliary code - (not necessary for course Day1)
 Install freesurfer: https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads <br>
 Install Afni: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/main_toc.html <br>
 
