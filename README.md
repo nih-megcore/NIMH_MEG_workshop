@@ -89,7 +89,7 @@ pip install -e .    #Install this code
 pip install git+https://github.com/nih-megcore/nih_to_mne.git  #Install some auxilliary NIH code
 ```
 
-## Install dataset
+## Install dataset - if you want to create from scratch.  Use the link provided by email if you want to download
 ```
 mamba create -n datalad -c conda-forge datalad gdown -y
 conda activate datalad
