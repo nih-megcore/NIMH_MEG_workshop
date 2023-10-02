@@ -5,10 +5,10 @@ cd ds004215
 # [22671 70467 62003 72082 85305 52662 89475 42107 61373 89474 03748 84896 02811]
 
 #Download all the airpuf and T1w data for the following subjects
-for i in 22671 70467 62003 72082 85305 52662 89475 42107 61373 89474 03748 84896 02811; do datalad get sub-ON${i}/ses-01/meg/*airpuff*  sub-ON${i}/ses-01/anat/*T1w* ; done
+for i in 22671 70467 62003 72082 85305 52662 89475 42107 61373 89474 03748 84896 02811; do datalad get sub-ON${i}/ses-01/meg/*airpuff*  sub-ON${i}/ses-01/anat/*T1w* sub-ON${i}/ses-01/meg/*noise*.ds; done
 
 #Unlock the data - makes copying easier
-for i in 22671 70467 62003 72082 85305 52662 89475 42107 61373 89474 03748 84896 02811; do datalad unlock sub-ON${i}/ses-01/meg/*airpuff* sub-ON${i}/ses-01/anat/*T1w* ; done
+for i in 22671 70467 62003 72082 85305 52662 89475 42107 61373 89474 03748 84896 02811; do datalad unlock sub-ON${i}/ses-01/meg/*airpuff* sub-ON${i}/ses-01/anat/*T1w* sub-ON${i}/ses-01/meg/*noise*  ; done
 
 #Clean channel names -- need to update OPENNEURO
 for i in $(find sub-* -name '*channels.tsv') ; do sed -i 's/-1609//g' $i ; sed -i 's/-2104//g' $i ; done
