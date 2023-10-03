@@ -18,12 +18,13 @@ import glob
 
 #from nilearn import *
 from nih2mne.utilities.bids_helpers import get_mri_dict
-n_jobs = 10 #Number of parrallel operations
+n_jobs = 30 #Number of parrallel operations
 
 # first let's set up directories
 
 # bids_root = '/data/jstout/meg_workshop_data'
-bids_root = op.join('/data',os.environ['USER'], 'meg_workshop_data') 
+bids_root = '/data/MEGmodules/modules/meg_workshop_2023_extras/ds004215'
+#bids_root = op.join('/data',os.environ['USER'], 'meg_workshop_data') 
 deriv_root = op.join(bids_root, 'derivatives')
 project_root = op.join(deriv_root, 'Day2')
 fs_subjects_dir = op.join(deriv_root,'freesurfer','subjects')
@@ -36,7 +37,7 @@ def proc_stc(subject, filt_freqs=[]):
     
     # load in all the MRI stuff
     bem = data_dict['bem'].load()
-    fwd = data_dict['fwd'].load()
+    fwd = data_dict['volfwd'].load()
     src = fwd['src']
     trans = data_dict['trans'].load()
     
@@ -86,8 +87,8 @@ def proc_stc(subject, filt_freqs=[]):
     stc_missingstim._data = np.abs(stc_missingstim._data)
     
     #Output Paths
-    stc_stim_path = project_path.update(suffix=f'stc{filt_freqs[0]}_{filt_freqs[1]}', description='stim',extension='.fif')
-    stc_missingstim_path = project_path.update(suffix=f'stc{filt_freqs[0]}_{filt_freqs[1]}', description='missingstim',extension='.fif')
+    stc_stim_path = project_path.copy().update(suffix=f'stc{filt_freqs[0]}to{filt_freqs[1]}', description='stim',extension=None)#, datatype='meg')
+    stc_missingstim_path = project_path.copy().update(suffix=f'stc{filt_freqs[0]}to{filt_freqs[1]}', description='missingstim',extension=None)#, datatype='meg')
     
     #Get the envelope
     stc_stim.save(stc_stim_path, overwrite=True)
