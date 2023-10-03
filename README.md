@@ -23,8 +23,8 @@
 | 9:30-10:30 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Fred + Jeff | 
 | 10:30 - 11:30 | [Lab 4](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb) | 
 | 11:30 - 12:00 | Beamformer Specifics - Covariance, filtering, data rank, regularization | Tom |
-| 12:00 - 1:00| Lunch |
-| 1:00 - 2:00 | Single subject to group data | Jeff |
+| 12:00 - 1:30| Lab5 + Lunch |
+| 1:30 - 2:00 | Single subject to group data | Jeff |
 | 2:00 - 2:30 | Code |
 | 2:30 - 3:30 | Statistics (parametric / log transform / resampling stats / clusters ) | Fred + Allison |
 | 3:30 - 4:00 | Code | 
