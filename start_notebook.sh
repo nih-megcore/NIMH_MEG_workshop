@@ -15,7 +15,7 @@ echo $DISPLAY
 Xvfb ${DISPLAY} -screen 0 1280x1024x24 -auth localhost&
 export THE_PID=$!
 
-Process the script
+#Process the script
 jupyter lab --port $PORT1 --no-browser
 
 #Kill the screen session
