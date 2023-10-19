@@ -19,6 +19,6 @@ setuptools.setup(
         "Operating System :: Linux/Unix",
     ],
     python_requires='>3.8',
-    install_requires=['mne', 'numpy', 'scipy', 'pandas', 'nibabel', 'nilearn', 'seaborn', 'mne_bids','nbdime'], #,'niwidgets'],
+    install_requires=['mne', 'numpy', 'scipy', 'pandas', 'nibabel', 'nilearn', 'seaborn', 'mne_bids','nbdime','nih2mne @ git+https://github.com/nih-megcore/nih_to_mne.git@master'], #,'niwidgets'],
     scripts=[ ],
     )
