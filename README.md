@@ -1,6 +1,6 @@
 # MEG_workshop_2023  
 
-## Day 1 (09/27/2023)
+## Day 1 (11/18/2024)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
 | 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup |
@@ -10,10 +10,10 @@
 | 11:00 - 11:45 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
 |  |  bad epochs, filtering, abberant signals | 
 | 11:45 - 12:30 | Lunch  
-| 12:30 - 1:00 | [Lab 0 Basic Linux/Biowulf]() | Filtering Data, Frequency Analysis, Hilbert, Brain Rythms, and Artifacts | Allison | 
-| 1:00 - 1:30 | Filtering Data, averaging/evoked data, frequency analysis, hilbert transform, brain rhythms |
+| 12:30 - 1:00 | [Lab 0 Basic Linux/Biowulf]() | Allison | 
+| 1:00 - 1:30 | Filtering Data, averaging/evoked data, frequency analysis, hilbert transform, brain rhythms | Allison | 
 | 1:30 - 2:00 | [Lab 1 Preprocessing](https://github.com/nih-megcore/NIMH_MEG_workshop/blob/main/Day1/Lab1_preprocessing.ipynb) | 
-| 2:00 - 2:45 | [Lab 2](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab2_frequency_analysis.ipynb) |
+| 2:00 - 2:45 | [Lab 2 Frequency Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab2_frequency_analysis.ipynb) |
 | 2:45 - 3:00 | Break | 
 | 3:00 - 3:45 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
 | | BEM, Forward Model | 
