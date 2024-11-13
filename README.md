@@ -17,16 +17,22 @@
 | 2:45 - 3:00 | Break | 
 | 3:00 - 3:45 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
 | | BEM, Forward Model | 
-| 3:45 - 4:30 | [Lab 3](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab3_MRI_processing.ipynb) |
+| 3:45 - 4:30 | [Lab 3 MRI Integration](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab3_MRI_processing.ipynb) |
 
 ## Day 2 (10/04/2023)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
-| 9:30-10:30 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Fred + Jeff | 
-| 10:30 - 11:30 | [Lab 4](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb) | 
-| 11:30 - 12:00 | Beamformer Specifics - Covariance, filtering, data rank, regularization | Tom |
-| 12:00 - 1:30| [Lab 5](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) + Lunch |
-| 1:30 - 2:00 | Single subject to group data | Jeff |
+| 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup | |
+| 9:15 - 10:00 | Using the MEG lab and MEG core services | Anna | 
+| 10:00 - 11:00 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Fred + Jeff | 
+| 11:00 - 11:15 | Break | 
+| 11:15 - 12:00 | [Lab 4](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb) | 
+| 12:00 - 12:45 | Lunch |
+| 12:45 - 1:30 | Single subject to group data | Jeff |
+| 1:30  - 2:15 | [Lab 5 Beamforming](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) + Lunch |
+| 2:15 - 2:45 | Git | Jeff |
+| ------- FIX Schedule Below ---------- |
+
 | 2:00 - 2:30 | [Lab 6](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab6_MakingGroupData.ipynb)  |
 | 2:30 - 3:30 | Statistics (parametric / log transform / resampling stats / clusters ) | Fred + Allison |
 | 3:30 - 4:00 | Code | 
