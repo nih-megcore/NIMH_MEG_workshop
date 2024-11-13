@@ -1,4 +1,4 @@
-# MEG_workshop_2023  
+# MEG_workshop_2024  
 
 ## Day 1 (11/18/2024)
 | Time  | Topic | Presenter |
