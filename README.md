@@ -4,18 +4,20 @@
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
 | 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup |
-| 9:15 - 9:30 | Course Intro + MEGcore Intro | MEGcore |
-| 9:30 - 10:30 | Intro to MEG and general overview of source localization | Fred |
-| 10:30 - 11:00 | MEG Hardware and Signal Generation / Collection | Stephen | 
-| 11:00 - 11:15 | Break
-| 11:15 - 12:15 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
+| 9:15 - 10:15 | Intro to MEG and general overview of source localization | Fred |
+| 10:15 - 10:45 | MEG Hardware and Signal Generation / Collection | Stephen | 
+| 10:45 - 11:00 | Break
+| 11:00 - 11:45 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
 |  |  bad epochs, filtering, abberant signals | 
-| 12:15 - 1:30 | [Lab 1](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab1_preprocessing.ipynb) + Lunch | 
-| 1:30 - 2:30 | Filtering Data, Frequency Analysis, Hilbert, Brain Rythms, and Artifacts | Allison | 
-| 2:30 - 3:00 | [Lab 2](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab2_frequency_analysis.ipynb) |
-| 3:00 - 4:00 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
+| 11:45 - 12:30 | Lunch  
+| 12:30 - 1:00 | [Lab 0 Basic Linux/Biowulf]() | Filtering Data, Frequency Analysis, Hilbert, Brain Rythms, and Artifacts | Allison | 
+| 1:00 - 1:30 | Filtering Data, averaging/evoked data, frequency analysis, hilbert transform, brain rhythms |
+| 1:30 - 2:00 | [Lab 1 Preprocessing](https://github.com/nih-megcore/NIMH_MEG_workshop/blob/main/Day1/Lab1_preprocessing.ipynb) | 
+| 2:00 - 2:45 | [Lab 2](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab2_frequency_analysis.ipynb) |
+| 2:45 - 3:00 | Break | 
+| 3:00 - 3:45 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
 | | BEM, Forward Model | 
-| 4:00 - 4:30 | [Lab 3](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab3_MRI_processing.ipynb) |
+| 3:45 - 4:30 | [Lab 3](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab3_MRI_processing.ipynb) |
 
 ## Day 2 (10/04/2023)
 | Time  | Topic | Presenter |
