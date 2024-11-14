@@ -24,21 +24,17 @@
 | :---- | ---- | ---- |
 | 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup | |
 | 9:15 - 10:00 | Using the MEG lab and MEG core services | Anna | 
-| 10:00 - 11:00 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Fred + Jeff | 
+| 10:00 - 11:00 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Jeff + Tom | 
 | 11:00 - 11:15 | Break | 
-| 11:15 - 12:00 | [Lab 4](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb) | 
+| 11:15 - 12:00 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb) | 
 | 12:00 - 12:45 | Lunch |
 | 12:45 - 1:30 | Single subject to group data | Jeff |
-| 1:30  - 2:15 | [Lab 5 Beamforming](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) + Lunch |
+| 1:30  - 2:15 | [Lab 5 - Beamforming](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) + Lunch |
 | 2:15 - 2:45 | Git | Jeff |
-| ------- FIX Schedule Below ---------- |
-
-| 2:00 - 2:30 | [Lab 6](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab6_MakingGroupData.ipynb)  |
-| 2:30 - 3:30 | Statistics (parametric / log transform / resampling stats / clusters ) | Fred + Allison |
-| 3:30 - 4:00 | Code | 
-| 4:00 - 4:20 | Course Review | Allison |
-| 4:20 - 5:00 | Additional Techniques: OPMs,  Connectivity | Amaia + Lucrezia |
-| | Additional Techniques: Decoding, Dynamic Causal Modeling | Shruti + Jess |
+| 2:45 - 3:00 ||
+| 2:00 - 2:30 | [Lab 6 - Group Data Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab6_MakingGroupData.ipynb)  |
+| 3:00 - 3:45 | Statistics (parametric / log transform / resampling stats / clusters ) | Fred |
+| 3:45 - 4:30 | Possibilities of MEG and Course Review | Allison |
 
 # Biowulf users (must be NIH associated)
 Log into biowulf:  `ssh -Y USERNAME@biowulf.nih.gov`
