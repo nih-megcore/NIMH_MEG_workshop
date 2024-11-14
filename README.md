@@ -7,16 +7,14 @@
 | 9:15 - 10:15 | Intro to MEG and general overview of source localization | Fred |
 | 10:15 - 10:45 | MEG Hardware and Signal Generation / Collection | Stephen | 
 | 10:45 - 11:00 | Break
-| 11:00 - 11:45 | Stimuli, trigger processing, epochs, evoked data, bad chans | Tom + Anna |
-|  |  bad epochs, filtering, abberant signals | 
+| 11:00 - 11:45 | Stimuli, trigger processing, epochs, evoked data, bad chans, bad epochs, filtering, abberant signals| Tom + Anna |
 | 11:45 - 12:30 | Lunch  
 | 12:30 - 1:00 | [Lab 0 Basic Linux/Biowulf]() | Allison | 
 | 1:00 - 1:30 | Filtering Data, averaging/evoked data, frequency analysis, hilbert transform, brain rhythms | Allison | 
 | 1:30 - 2:00 | [Lab 1 Preprocessing](https://github.com/nih-megcore/NIMH_MEG_workshop/blob/main/Day1/Lab1_preprocessing.ipynb) | 
 | 2:00 - 2:45 | [Lab 2 Frequency Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab2_frequency_analysis.ipynb) |
 | 2:45 - 3:00 | Break | 
-| 3:00 - 3:45 | MRI Processing, placing fiducials, coreg, source model (volume + surface) | Anna + Jeff |
-| | BEM, Forward Model | 
+| 3:00 - 3:45 | MRI Processing, placing fiducials, coreg, source model (volume + surface), BEM, Forward Model  | Anna + Jeff |
 | 3:45 - 4:30 | [Lab 3 MRI Integration](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab3_MRI_processing.ipynb) |
 
 ## Day 2 (11/19/2024)
@@ -29,11 +27,11 @@
 | 11:15 - 12:00 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb) | 
 | 12:00 - 12:45 | Lunch |
 | 12:45 - 1:30 | Single subject to group data | Jeff |
-| 1:30  - 2:15 | [Lab 5 - Beamforming](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) + Lunch |
+| 1:30  - 2:15 | [Lab 5 - Beamforming](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) |
 | 2:15 - 2:45 | Git | Jeff |
-| 2:45 - 3:00 ||
+| 2:45 - 3:00 | Break - Squid Meet & Greet|
 | 2:00 - 2:30 | [Lab 6 - Group Data Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab6_MakingGroupData.ipynb)  |
-| 3:00 - 3:45 | Statistics (parametric / log transform / resampling stats / clusters ) | Fred |
+| 3:00 - 3:45 | Statistics (parametric / log transform / clusters / BLOBs) | Fred |
 | 3:45 - 4:30 | Possibilities of MEG and Course Review | Allison |
 
 # Biowulf users (must be NIH associated)
