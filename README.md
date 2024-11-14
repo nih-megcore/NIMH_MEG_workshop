@@ -19,7 +19,7 @@
 | | BEM, Forward Model | 
 | 3:45 - 4:30 | [Lab 3 MRI Integration](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab3_MRI_processing.ipynb) |
 
-## Day 2 (10/04/2023)
+## Day 2 (11/19/2024)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
 | 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup | |
