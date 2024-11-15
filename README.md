@@ -40,9 +40,11 @@ https://hpcondemand.nih.gov
 ![hpc_login](extras/images/Biowulf_GLogin.png) 
 ![provision](extras/images/Provision_GLogin.png)
 ![open_graphical](extras/images/GoToGraphical.png)
-![biowulf_image](extras/images/OnBiowulf_desktop.png)
 
-Copy notebooks to your local folder.  Change directories first if you don't want the code/data in your home folder.
+![biowulf_Desktop_wterminal](extras/images/BiowulfDesktop_terminal.png)
+
+Copy the following lines into your terminal.
+This will copy the code/notebooks and data into your local folder.  
 ```
 module use --append /data/MEGmodules/modulefiles  #You can add this to your .bashrc for convenience
 module load meg_workshop
@@ -51,9 +53,10 @@ get_code   #Copy the code to your current directory
 get_data   #Copy and untar the data to your /data/${USER}/meg_data_workshop
 
 cd NIMH_MEG_workshop
-./start_notebook_Day1.sh  #Start the notebook for Day1 - allows for time series scrolling
-#OR use for Day2 material  -- ./start_notebook_Day2.sh - Visualize the 3D brain renderings
+jupyter lab
 ```
+![StartupJupyter](extras/images/StartupJupyter.png)
+
 
 
 
