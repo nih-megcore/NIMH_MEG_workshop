@@ -3,8 +3,9 @@
 ## Day 1 (11/18/2024)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
-| 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup |
-| 9:15 - 10:15 | Intro to MEG and general overview of source localization | Fred |
+| 9:00 - 9:10 | Bagel Config + Coffee Download + Computer Setup |
+| 9:10 - 9:20 | Course Intro | Jeff |
+| 9:20 - 10:15 | Intro to MEG and general overview of source localization | Fred |
 | 10:15 - 10:45 | MEG Hardware and Signal Generation / Collection | Stephen | 
 | 10:45 - 11:00 | Break
 | 11:00 - 11:45 | Stimuli, trigger processing, epochs, evoked data, bad chans, bad epochs, filtering, abberant signals| Tom + Anna |
