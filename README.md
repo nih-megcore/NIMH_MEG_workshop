@@ -36,6 +36,15 @@
 | 3:45 - 4:30 | Possibilities of MEG and Course Review | Allison |
 
 # Biowulf users (must be NIH associated)
+https://hpcondemand.nih.gov
+![hpc_login](extras/images/Biowulf_GLogin.png) 
+![provision](extras/images/Provision_GLogin.png)
+![open_graphical](extras/images/GoToGraphical.png)
+![biowulf_image](extras/images/OnBiowulf_desktop.png)
+
+
+
+# Alternative version using SSH Tunnels -- Biowulf users (must be NIH associated)
 Log into biowulf:  `ssh -Y USERNAME@biowulf.nih.gov`
 ```
 #You can type tmux before starting sinteractive to have a persistent session between disconnecting wifi
