@@ -11,3 +11,8 @@ install:
 	($(CONDA_ACTIVATE) MEG_workshop ; pip install h5io pymatreader git+https://github.com/nih-megcore/nih_to_mne.git)
 	($(CONDA_ACTIVATE) MEG_workshop ; pip install -e .)
 
+install_conda:
+	conda create --override-channels --channel=conda-forge --name=MEG_workshop mne==1.5 pip jupyterlab -y
+	($(CONDA_ACTIVATE) MEG_workshop ; pip install h5io pymatreader git+https://github.com/nih-megcore/nih_to_mne.git)
+	($(CONDA_ACTIVATE) MEG_workshop ; pip install -e .)
+
