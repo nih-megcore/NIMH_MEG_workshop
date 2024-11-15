@@ -80,8 +80,8 @@ To install mamba - `conda install --channel=conda-forge --name=base mamba`
 <br><br>
 ### Install (version1) - requires make, mamba, git
 ```
-git clone https://github.com/nih-megcore/MEG_workshop_2023.git
-cd MEG_workshop_2023
+git clone  https://github.com/nih-megcore/NIMH_MEG_workshop.git
+cd NIMH_MEG_workshop
 make install 
 ```
 
