@@ -88,15 +88,15 @@ make install
 ### Install (version2) 
 ```
 #Clone this repository - If you don't have git, just download the zip file from the green button at the top of page
-git clone https://github.com/nih-megcore/MEG_workshop_2023.git
+git clone https://github.com/nih-megcore/NIMH_MEG_workshop.git
 
 #Install MNE - Substitute conda for mamba if any errors
-mamba create --override-channels --channel=conda-forge --name=MEG_workshop mne pip jupyterlab -y
+mamba create --override-channels --channel=conda-forge --name=MEG_workshop mne==1.5 pip jupyterlab -y
 conda activate MEG_workshop
 pip install h5io pymatreader
 
 #Install the Workshop files
-cd MEG_workshop_2023
+cd NIMH_MEG_workshop
 pip install -e .    #Install this code
 pip install git+https://github.com/nih-megcore/nih_to_mne.git  #Install some auxilliary NIH code
 ```
