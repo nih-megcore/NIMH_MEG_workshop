@@ -1,5 +1,12 @@
 # MEG_workshop_2024  
 
+  [Calendar](#Calendar) <br>
+  [Biowulf Processing 1](BiowulfInfoV1) <br>
+  [Biowulf Processing 2](BiowulfInfoV2) <br>
+  [Install](InstallCodeV1) <br>
+  #[Create Data](InstallCodeV2) <br>
+
+<a id="Calendar"></a>
 ## Day 1 (11/18/2024)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
@@ -35,6 +42,7 @@
 | 3:00 - 3:45 | Statistics (parametric / log transform / clusters / BLOBs) | Fred |
 | 3:45 - 4:30 | Possibilities of MEG and Course Review | Allison |
 
+<a id="BiowulfInfoV1"></a>
 # Biowulf users (must be NIH associated)
 https://hpcondemand.nih.gov
 ![hpc_login](extras/images/Biowulf_GLogin.png) 
@@ -59,7 +67,7 @@ jupyter lab
 
 
 
-
+<a id="BiowulfInfoV2"></a>
 # Alternative version using SSH Tunnels -- Biowulf users (must be NIH associated)
 Log into biowulf:  `ssh -Y USERNAME@biowulf.nih.gov`
 ```
@@ -88,6 +96,7 @@ Enter this into the address bar of your web browser `localhost:<PORT>` <br>
 
 **NOTE**:If you get something about a **token**: Copy it from the commandline<br><br>
 
+<a id="InstallCodeV1"></a>
 # Install (not required for biowulf users)
 The following software is required to run all parts of the coding sections: afni + freesurfer + git + miniconda(/conda) <br>
 To run the majority of the code: miniconda/conda + git are required <br><br>
@@ -109,7 +118,7 @@ git clone  https://github.com/nih-megcore/NIMH_MEG_workshop.git
 cd NIMH_MEG_workshop
 make install 
 ```
-
+<a id="InstallCodeV2"></a>
 ### Install (version2) 
 ```
 #Clone this repository - If you don't have git, just download the zip file from the green button at the top of page
