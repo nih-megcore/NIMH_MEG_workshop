@@ -1,10 +1,10 @@
 # MEG_workshop_2024  
 
-  [Calendar](#Calendar) <br>
-  [Biowulf Processing 1](BiowulfInfoV1) <br>
-  [Biowulf Processing 2](BiowulfInfoV2) <br>
-  [Install](InstallCodeV1) <br>
-  #[Create Data](InstallCodeV2) <br>
+[Calendar](#Calendar) <br>
+[Biowulf Processing 1](#BiowulfInfoV1) <br>
+[Biowulf Processing 2](#BiowulfInfoV2) <br>
+[Install Code](#InstallCodeV1) <br>
+[Create Data](#CreateData) <br>
 
 <a id="Calendar"></a>
 ## Day 1 (11/18/2024)
@@ -134,7 +134,7 @@ cd NIMH_MEG_workshop
 pip install -e .    #Install this code
 pip install git+https://github.com/nih-megcore/nih_to_mne.git  #Install some auxilliary NIH code
 ```
-
+<a id="CreateData"></a>
 ## Install dataset - if you want to create from scratch.  Use the link provided by email if you want to download
 ```
 mamba create -n datalad -c conda-forge datalad gdown -y
