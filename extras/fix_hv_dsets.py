@@ -53,8 +53,6 @@ def remove_extra_tasks(subject):
         megdset = glob.glob(f'{subject}/ses-01/meg/*-{task}_*.ds')
         if len(megdset)>0:
             megdset = megdset[0]
-        else:
-            continue
         try:
             shutil.rmtree(megdset)    
         except:
