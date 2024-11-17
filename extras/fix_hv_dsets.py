@@ -44,12 +44,48 @@ def remove_extra_jsons(subject):
     else:
         print(f'Only 1 MRI: {subject}')
 
+def remove_extra_modalities(subject):
+    for modal in ['dwi','func','perf']:
+        shutil.rmtree(f'{subject}/ses-01/{modal}')
+        
+def remove_extra_tasks(subject):
+    for task in ['artifact','rest','gonogo','oddball','sternberg','haririhammer','movie']:
+        megdset = glob.glob(f'{subject}/ses-01/meg/*-{task}_*.ds')
+        if len(megdset)>0:
+            megdset = megdset[0]
+        else:
+            continue
+        try:
+            shutil.rmtree(megdset)    
+        except:
+            print('Cant remove {megdset}')
+        for i in glob.glob(f'{subject}/ses-01/meg/*-{task}_*'):
+            try:
+                os.remove(i)
+            except:
+                print('Cant remove {i}')
+
+# Clean up MRIs                 
 for subject in subjects:
     remove_extra_jsons(subject)
 
-
 for subject in subjects:
     remove_extras(subject)
+
+# Clean up extra modalities
+for subject in subjects:
+    try:
+        remove_extra_modalities(subject)
+    except:
+        print(f'Nothing to remove: {subject}')
+
+for subject in subjects:
+    remove_extra_tasks(subject) 
+        
+
+
+
+
             
             
     
