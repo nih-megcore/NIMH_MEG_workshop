@@ -57,6 +57,10 @@ https://hpcondemand.nih.gov          # <<- CLICK ON THIS LINK to get to the belo
 Copy the following lines into your terminal.
 This will copy the code/notebooks and data into your local folder.  
 ```
+sinteractive --mem=16G --cpus-per-task=12 --gres=lscratch:10  #Wait for this to start
+```
+
+```
 module use --append /data/MEGmodules/modulefiles  #You can add this to your .bashrc for convenience
 module load meg_workshop
 
