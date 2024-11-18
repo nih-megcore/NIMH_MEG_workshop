@@ -1,8 +1,8 @@
 # MEG_workshop_2024  
 
 [Calendar](#Calendar) <br>
-[Biowulf Processing 1](#BiowulfInfoV1) <br>
-[Biowulf Processing 2](#BiowulfInfoV2) <br>
+[Biowulf Processing HPC-On-Demand (v1)](#BiowulfInfoV1) <br>
+[Biowulf Processing SSH Tunnel (v2)](#BiowulfInfoV2) <br>
 [Install Code](#InstallCodeV1) <br>
 [Create Data](#CreateData) <br>
 
