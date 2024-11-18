@@ -44,7 +44,10 @@
 
 <a id="BiowulfInfoV1"></a>
 # Biowulf users (must be NIH associated)
-https://hpcondemand.nih.gov
+########################### <br>
+https://hpcondemand.nih.gov          # <<- CLICK ON THIS LINK to get to the below webpages <br>
+###########################
+<br><br><br><br>
 ![hpc_login](extras/images/Biowulf_GLogin.png) 
 ![provision](extras/images/Provision_GLogin.png)
 ![open_graphical](extras/images/GoToGraphical.png)
