@@ -25,4 +25,5 @@ git rm -rf sub-ON80038 sub-ON72409 sub-ON96555 sub-ON99633 sub-ON31551 sub-ON026
 
 
 # Clear out extra MRIs
-${SCRIPT_DIR}/extras/fix_hv_dsets.py
+chmod -R 777 ./*
+../extras/fix_hv_dsets.py
