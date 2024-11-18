@@ -51,6 +51,8 @@ def remove_extra_modalities(subject):
 def remove_extra_tasks(subject):
     for task in ['artifact','rest','gonogo','oddball','sternberg','haririhammer','movie']:
         megdset = glob.glob(f'{subject}/ses-01/meg/*-{task}_*.ds')
+        if (subject=='sub-ON02811') and (task=='oddball'):
+            continue
         if len(megdset)>0:
             megdset = megdset[0]
         try:
