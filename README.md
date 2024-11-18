@@ -86,7 +86,7 @@ module load meg_workshop
 get_code   #Copy the code to your current directory
 get_data   #Copy and untar the data to your /data/${USER}/meg_data_workshop
 
-cd MEG_workshop_2023
+cd NIMH_MEG_workshop
 ./start_notebook_Day1.sh  #Start the notebook for Day1 - allows for time series scrolling
 #OR use for Day2 material  -- ./start_notebook_Day2.sh - Visualize the 3D brain renderings
 ```
