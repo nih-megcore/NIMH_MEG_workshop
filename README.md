@@ -17,7 +17,7 @@
 | 10:45 - 11:00 | Break
 | 11:00 - 11:45 | Stimuli, trigger processing, epochs, evoked data, bad chans, bad epochs, filtering, abberant signals| Tom + Anna |
 | 11:45 - 12:30 | Lunch  
-| 12:30 - 1:00 | [Lab 0 Basic Linux/Biowulf]() | Allison | 
+| 12:30 - 1:00 | Basic Linux/Biowulf Demo: More info here - [biowulf](https://hpc.nih.gov/training/)  [bash/terminal](https://hpc.nih.gov/training/bash_class/) | Allison | 
 | 1:00 - 1:30 | Filtering Data, averaging/evoked data, frequency analysis, hilbert transform, brain rhythms | Allison | 
 | 1:30 - 2:00 | [Lab 1 Preprocessing](https://github.com/nih-megcore/NIMH_MEG_workshop/blob/main/Day1/Lab1_preprocessing.ipynb) | 
 | 2:00 - 2:45 | [Lab 2 Frequency Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab2_frequency_analysis.ipynb) |
