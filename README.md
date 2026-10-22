@@ -1,4 +1,4 @@
-# MEG_workshop_2024  
+# MEG_workshop_2026  
 
 [Calendar](#Calendar) <br>
 [Biowulf Processing HPC-On-Demand (v1)](#BiowulfInfoV1) <br>
@@ -7,29 +7,29 @@
 [Create Data](#CreateData) <br>
 
 <a id="Calendar"></a>
-## Day 1 (11/18/2024)
+## Day 1 (11/04/2026)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
 | 9:00 - 9:10 | Bagel Config + Coffee Download + Computer Setup |
 | 9:10 - 9:20 | Course Intro | Jeff |
-| 9:20 - 10:15 | Intro to MEG and general overview of source localization | Fred |
-| 10:15 - 10:45 | MEG Hardware and Signal Generation / Collection | Stephen | 
+| 9:20 - 10:15 | Using the MEG lab and MEG core services | Anna | 
+| 10:15 - 10:45 |Intro to MEG and general overview of source localization | Fred | 
 | 10:45 - 11:00 | Break
-| 11:00 - 11:45 | Stimuli, trigger processing, epochs, evoked data, bad chans, bad epochs, filtering, abberant signals| Tom + Anna |
-| 11:45 - 12:30 | Lunch  
-| 12:30 - 1:00 | Basic Linux/Biowulf Demo: More info here - [biowulf](https://hpc.nih.gov/training/)  [bash/terminal](https://hpc.nih.gov/training/bash_class/) | Allison | 
-| 1:00 - 1:30 | Filtering Data, averaging/evoked data, frequency analysis, hilbert transform, brain rhythms | Allison | 
+| 11:00 - 11:45 | Filtering Data, averaging/evoked data, frequency analysis, hilbert transform, brain rhythms | Allison | 
+| 11:45 - 12:30 | Lunch
+| 12:30 - 1:00 | MEG Hardware and Signal Generation / Collection | Stephen | 
+| 1:00 - 1:30 | Stimuli, trigger processing, epochs, evoked data, bad chans, bad epochs, filtering, abberant signals| Tom + Anna |
 | 1:30 - 2:00 | [Lab 1 Preprocessing](https://github.com/nih-megcore/NIMH_MEG_workshop/blob/main/Day1/Lab1_preprocessing.ipynb) | 
 | 2:00 - 2:45 | [Lab 2 Frequency Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab2_frequency_analysis.ipynb) |
 | 2:45 - 3:00 | Break | 
 | 3:00 - 3:45 | MRI Processing, placing fiducials, coreg, source model (volume + surface), BEM, Forward Model  | Anna + Jeff |
 | 3:45 - 4:30 | [Lab 3 MRI Integration](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day1/Lab3_MRI_processing.ipynb) |
 
-## Day 2 (11/19/2024)
+## Day 2 (11/05/2026)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
 | 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup | |
-| 9:15 - 10:00 | Using the MEG lab and MEG core services | Anna | 
+| 9:15 - 10:00 | 
 | 10:00 - 11:00 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Jeff + Tom | 
 | 11:00 - 11:15 | Break | 
 | 11:15 - 12:00 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb) | 
