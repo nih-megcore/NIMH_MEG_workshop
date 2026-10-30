@@ -10,7 +10,7 @@
 ## Day 1 (11/04/2026)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
-| 9:00 - 9:10 | Bagel Config + Coffee Download + Computer Setup |
+| 9:00 - 9:10 | Bagel Config + Coffee Download + Computer Setup + Squid Meet & Greet |
 | 9:10 - 9:20 | Course Intro | Jeff |
 | 9:20 - 10:15 | Using the MEG lab and MEG core services | Anna | 
 | 10:15 - 10:45 |Intro to MEG and general overview of source localization | Fred | 
@@ -28,18 +28,18 @@
 ## Day 2 (11/05/2026)
 | Time  | Topic | Presenter |
 | :---- | ---- | ---- |
-| 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup | |
-| 9:15 - 10:00 | 
-| 10:00 - 11:00 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Jeff + Tom | 
-| 11:00 - 11:15 | Break | 
-| 11:15 - 12:00 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb) | 
-| 12:00 - 12:45 | Lunch |
-| 12:45 - 1:30 | Single subject to group data | Jeff |
-| 1:30  - 2:15 | [Lab 5 - Beamforming](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) |
-| 2:15 - 2:45 | Git | Jeff |
-| 2:45 - 3:00 | Break - Squid Meet & Greet|
-| 2:00 - 2:30 | [Lab 6 - Group Data Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab6_MakingGroupData.ipynb)  |
-| 3:00 - 3:45 | Statistics (parametric / log transform / clusters / BLOBs) | Fred |
+| 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup + Squid Meet & Greet| |
+| 9:15 - 10:00 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Jeff + Tom | 
+| 10:00 - 11:00 | TBD - Intro to NIH MNE gui, Single subject to group data |	Jeff |
+| 11:00 - 11:15 | TBD -- NIH Relay | |
+| 11:15 - 12:00 | TBD -- NIH Relay | |
+| 12:00 - 12:45 | TBD -- NIH Relay | |
+| 12:45 - 1:30 | TBD -- NIH Relay | |
+| 1:30  - 2:15 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb), [Lab 5 - Beamforming](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) |
+| 2:15 - 2:45 | TBD | Jeff |
+| 2:45 - 3:00 | Break/TBD | 
+| 2:00 - 2:30 | Statistics (parametric / log transform / clusters / BLOBs) | Fred |
+| 3:00 - 3:45 |  [Lab 6 - Group Data Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab6_MakingGroupData.ipynb), Single subject to group data, TBD  |
 | 3:45 - 4:30 | Possibilities of MEG and Course Review | Allison |
 
 <a id="BiowulfInfoV1"></a>
