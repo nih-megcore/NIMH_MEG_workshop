@@ -1,9 +1,9 @@
 if [ -d /data/${USER}/meg_workshop_data ];
 then 
-	rsync -av /vf/users/MEGmodules/modules/meg_workshop_2024_extras/meg_workshop_data /data/${USER}/
+	rsync -av /vf/users/MEGmodules/modules/meg_workshop_2026_extras/meg_workshop_data /data/${USER}/
 	echo Updated MEG workshop Data
 else
-	cp -R  /vf/users/MEGmodules/modules/meg_workshop_2024_extras/meg_workshop_data.tar.gz /data/${USER}/meg_workshop_data.tar.gz
+	cp -R  /vf/users/MEGmodules/modules/meg_workshop_2026_extras/meg_workshop_data.tar.gz /data/${USER}/meg_workshop_data.tar.gz
 	cd /data/${USER}
 	tar -xvf meg_workshop_data.tar.gz
 	rm meg_workshop_data.tar.gz
