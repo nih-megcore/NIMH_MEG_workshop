@@ -35,12 +35,12 @@
 | 11:15 - 12:00 | TBD -- NIH Relay | |
 | 12:00 - 12:45 | TBD -- NIH Relay | |
 | 12:45 - 1:30 | TBD -- NIH Relay | |
-| 1:30  - 2:15 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb), [Lab 5 - Beamforming](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_Beamforming.ipynb) |
+| 1:30  - 2:15 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb), 
 | 2:15 - 2:45 | TBD | Jeff |
 | 2:45 - 3:00 | Break/TBD | 
 | 2:00 - 2:30 | Statistics (parametric / log transform / clusters / BLOBs) | Fred |
-| 3:00 - 3:45 |  [Lab 6 - Group Data Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab6_MakingGroupData.ipynb), Single subject to group data, TBD  |
-| 3:45 - 4:30 | Possibilities of MEG and Course Review | Allison |
+| 3:00 - 3:45 |  [Lab 5 - Group Data Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_GroupData.ipynb), Single subject to group data, TBD  |
+| 3:45 - 4:30 | Q&A and Course Closing | Allison and Jeff |
 
 <a id="BiowulfInfoV1"></a>
 # Biowulf users (must be NIH associated)
