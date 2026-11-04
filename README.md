@@ -30,17 +30,16 @@
 | :---- | ---- | ---- |
 | 9:00 - 9:15 | Bagel Config + Coffee Download + Computer Setup + Squid Meet & Greet| |
 | 9:15 - 10:00 | Source Localization (Dipoles, multiple dipoles, MNE, dSPM, Beamformer) | Jeff + Tom | 
-| 10:00 - 11:00 | TBD - Intro to NIH MNE gui, Single subject to group data |	Jeff |
+| 10:00 - 11:00 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb),
 | 11:00 - 11:15 | TBD -- NIH Relay | |
 | 11:15 - 12:00 | TBD -- NIH Relay | |
 | 12:00 - 12:45 | TBD -- NIH Relay | |
 | 12:45 - 1:30 | TBD -- NIH Relay | |
-| 1:30  - 2:15 | [Lab 4 - Source Localization](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab4_SourceLocalization.ipynb), 
-| 2:15 - 2:45 | TBD | Jeff |
-| 2:45 - 3:00 | Break/TBD | 
-| 2:00 - 2:30 | Statistics (parametric / log transform / clusters / BLOBs) | Fred |
-| 3:00 - 3:45 |  [Lab 5 - Group Data Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_GroupData.ipynb), Single subject to group data, TBD  |
-| 3:45 - 4:30 | Q&A and Course Closing | Allison and Jeff |
+| 1:30 - 2:15 |  Intro to NIH MNE BIDS gui, Single subject to group data |	Jeff |
+| 2:15 - 2:30 | Break/TBD | 
+| 2:30 - 3:15 | Statistics (parametric / log transform / clusters / BLOBs) | Fred |
+| 3:15 - 4:00 |  [Lab 5 - Group Data Analysis](https://github.com/nih-megcore/MEG_workshop_2023/blob/main/Day2/Lab5_GroupData.ipynb), Single subject to group data, TBD  |
+| 4:00 - 4:30 | Q&A and Course Closing | Allison and Jeff |
 
 <a id="BiowulfInfoV1"></a>
 # Biowulf users (must be NIH associated)
